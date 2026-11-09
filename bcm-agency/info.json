@@ -1,0 +1,14 @@
+{
+  "name": "BCM Agency Tools",
+  "slug": "bcm-agency",
+  "version": "1.2.3",
+  "download_url": "https://updates.bluecollarmarketing.ca/bcm-agency/bcm-agency-1.2.3.zip",
+  "requires": "6.9",
+  "requires_php": "7.4",
+  "tested": "7.1",
+  "last_updated": "2026-11-09 06:16:18",
+  "sections": {
+    "description": "Narrow, logged abilities for Blue Collar Marketing's Claude workflows.",
+    "changelog": "<h4>1.2.3</h4><p>bcm/get-site-identity reports the installed BCM Agency Tools version, for checking rollouts.</p><h4>1.2.2</h4><p>clearer next-step message after adding a tracking code (service-specific check; purge only mentioned when the code isn&#x27;t live yet).</p><h4>1.2.1</h4><p>after adding a tracking code, clear page caches the way WPCode&#x27;s own save does (plus Breeze/Varnish), and store the block in WPCode&#x27;s slashed format. New `bcm/purge-page-cache`.</p><h4>1.2.0</h4><p>tracking codes now go into WPCode&#x27;s Header &amp; Footer fields (live instantly, no snippet cache), as marked BCM blocks.</p><h4>1.1.1</h4><p>refresh WPCode&#x27;s snippet cache after adding a tracking code, then confirm it&#x27;s on the live homepage (reports `live_on_homepage`).</p>"
+  }
+}
