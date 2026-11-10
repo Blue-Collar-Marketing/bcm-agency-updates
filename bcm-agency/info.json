@@ -1,14 +1,14 @@
 {
   "name": "BCM Agency Tools",
   "slug": "bcm-agency",
-  "version": "1.3.1",
-  "download_url": "https://updates.bluecollarmarketing.ca/bcm-agency/bcm-agency-1.3.1.zip",
+  "version": "1.3.2",
+  "download_url": "https://updates.bluecollarmarketing.ca/bcm-agency/bcm-agency-1.3.2.zip",
   "requires": "6.9",
   "requires_php": "7.4",
   "tested": "7.1",
-  "last_updated": "2026-11-09 13:39:12",
+  "last_updated": "2026-11-10 06:21:20",
   "sections": {
     "description": "Narrow, logged abilities for Blue Collar Marketing's Claude workflows.",
-    "changelog": "<h4>1.3.1</h4><p>find and swap images in Elementor (classic, backgrounds, Atomic); list Media Library images; client-friendly plugin description.</p><h4>1.3.0</h4><p>find and replace across Elementor (classic, containers, Atomic), theme-builder templates and posts, with phone-number mode; list Elementor forms and change where they send (business email auto-detected, submitter thank-you never changed).</p><h4>1.2.4</h4><p>cache purge now requires Editor or higher; uninstall keeps the activity log unless BCM_AGENCY_DELETE_LOG_ON_UNINSTALL is set.</p><h4>1.2.3</h4><p>bcm/get-site-identity reports the installed BCM Agency Tools version, for checking rollouts.</p><h4>1.2.2</h4><p>clearer next-step message after adding a tracking code (service-specific check; purge only mentioned when the code isn&#x27;t live yet).</p>"
+    "changelog": "<h4>1.3.2</h4><p>element-only find/replace (`element_ids`); add/remove items in widget lists (icon lists, FAQs, price lists) including classic widgets; WordPress menu editing; image swaps carry over alt text; update checks every 2 hours plus `bcm/check-for-updates`.</p><h4>1.3.1</h4><p>find and swap images in Elementor (classic, backgrounds, Atomic); list Media Library images; client-friendly plugin description.</p><h4>1.3.0</h4><p>find and replace across Elementor (classic, containers, Atomic), theme-builder templates and posts, with phone-number mode; list Elementor forms and change where they send (business email auto-detected, submitter thank-you never changed).</p><h4>1.2.4</h4><p>cache purge now requires Editor or higher; uninstall keeps the activity log unless BCM_AGENCY_DELETE_LOG_ON_UNINSTALL is set.</p><h4>1.2.3</h4><p>bcm/get-site-identity reports the installed BCM Agency Tools version, for checking rollouts.</p>"
   }
 }
